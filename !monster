@@ -5,6 +5,11 @@ on('ready', function () {
 
     var SCRIPT = 'GM1E-Monster';
     var COMMAND = '!monster';
+
+    Object.keys(MONSTERS).forEach(function(k) {
+        if (!MONSTERS[k].id) MONSTERS[k].id = k;
+    });
+
     var PAGE_SIZE = 35;
     var AUTO_SHOW_CARD_AFTER_ATTACH = false;
     var STATE_KEY = 'GM1E_MONSTER_DB';
