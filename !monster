@@ -5,11 +5,6 @@ on('ready', function () {
 
     var SCRIPT = 'GM1E-Monster';
     var COMMAND = '!monster';
-
-    Object.keys(MONSTERS).forEach(function(k) {
-        if (!MONSTERS[k].id) MONSTERS[k].id = k;
-    });
-
     var PAGE_SIZE = 35;
     var AUTO_SHOW_CARD_AFTER_ATTACH = false;
     var STATE_KEY = 'GM1E_MONSTER_DB';
@@ -26368,6 +26363,10 @@ on('ready', function () {
     "id": "monster_manual_i_homunculus"
   }
 };
+
+    Object.keys(MONSTERS).forEach(function(k) {
+        if (!MONSTERS[k].id) MONSTERS[k].id = k;
+    });
 
     function getState() {
         state[STATE_KEY] = state[STATE_KEY] || { mode: 'attach' };
