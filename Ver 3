@@ -32149,6 +32149,368 @@ Notes: The weaponry of orcs is shown typically below: sword and flail 5%, sword 
 
 Notes: If the orcs are not in their lair there is a 20% chance they will be escorting a train of 1-6 carts and 10-60 slave bearers bringing supplies and loot to their chief or to a stronger orc tribe. The carts will hold goods worth from 10 to 1,000 gold pieces, and each slave will bear goods worth from 5 to 30 gold pieces. If such a train is indicated, double the number of leaders and assistants, add 10 normal orcs for each cart in the train, and a subchief with 5-30 guards will always be in charge.`
 };
+
+    /* Exact-wording A section replacements from user submission */
+
+    MONSTERS["monster_manual_i_aerial_servant"] = {
+  "name": "AERIAL SERVANT",
+  "source": "Monster Manual I",
+  "sheet": {
+    "frequency": "Very rare",
+    "no_appearing": "1",
+    "armorclass": "3",
+    "movement": "24\"",
+    "monsterHD": "16",
+    "percent_in_lair": "0",
+    "treasure_type": "Nil",
+    "no_of_attacks": "1",
+    "damage_attack": "8-32",
+    "special_attacks": "Surprises on 1-4",
+    "special_defenses": "Can be hit only by magic weapons",
+    "magic_resistance": "Standard",
+    "intelligence": "Semi-",
+    "alignment": "Neutral",
+    "size": "M (8' tall)",
+    "psionic_ability": "Nil",
+    "attack_defense_modes": "Nil"
+  },
+  "npc_notes": `AERIAL SERVANT
+
+FREQUENCY: Very rare
+NO. APPEARING: 1
+ARMOR CLASS: 3
+MOVE: 24"
+HIT DICE: 16
+% IN LAIR: 0
+TREASURE TYPE: Nil
+NO. OF ATTACKS: 1
+DAMAGE/ATTACK: 8-32
+SPECIAL ATTACKS: Surprises on 1-4
+SPECIAL DEFENSES: Can be hit only by magic weapons
+MAGIC RESISTANCE: Standard
+INTELLIGENCE: Semi-
+ALIGNMENT: Neutral
+SIZE: M (8' tall)
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+
+Notes: The aerial servant is a semi-intelligent form of an air elemental. It is typically encountered only due to conjuration by a cleric, although these creatures roam the ethereal and astral planes and when encountered there can be dimly seen. An aerial servant is normally invisible. Aerial servants do not fight per se, but they are exceedingly strong and very fast. They can carry weights in excess of 10,000 gold pieces, and if they grasp any creature it requires an 18 strength to have any chance of breaking free. For each percentage point score the creature has, there is a like chance to escape the grasp of the aerial servant, i.e. a human with an 18/50% strength has a 50% chance of breaking free of the grasp, and a 00% or 19 indicates automatic breaking of the grasp. They travel at twice the speed of an invisible stalker, and when on the physical plane they are able to achieve surprise on a die roll of 1-4 out of 6. If the aerial servant is frustrated from completion of its assigned mission it becomes insane, returns to the cleric which sent it forth, and attacks as a double strength invisible stalker. Likewise, if it is encountered ethereally or astrally the aerial servant will typically attack in the same fashion. For further details regarding aerial servants consult the volume detailing clerical spells.`
+};
+
+    MONSTERS["monster_manual_i_anhkheg"] = {
+  "name": "ANHKHEG",
+  "source": "Monster Manual I",
+  "sheet": {
+    "frequency": "Rare",
+    "no_appearing": "1-6",
+    "armorclass": "Overall 2; Underside 4",
+    "movement": "12\" (6\")",
+    "monsterHD": "3-8",
+    "percent_in_lair": "15%",
+    "treasure_type": "C",
+    "no_of_attacks": "1",
+    "damage_attack": "3-18 (+1-4)",
+    "special_attacks": "Squirt acid",
+    "special_defenses": "Nil",
+    "magic_resistance": "Standard",
+    "intelligence": "Non",
+    "alignment": "Neutral",
+    "size": "L (10' to 20' long)",
+    "psionic_ability": "Nil",
+    "attack_defense_modes": "Nil"
+  },
+  "npc_notes": `ANHKHEG
+
+FREQUENCY: Rare
+NO. APPEARING: 1-6
+ARMOR CLASS: Overall 2; Underside 4
+MOVE: 12" (6")
+HIT DICE: 3-8
+% IN LAIR: 15%
+TREASURE TYPE: C
+NO. OF ATTACKS: 1
+DAMAGE/ATTACK: 3-18 (+1-4)
+SPECIAL ATTACKS: Squirt acid
+SPECIAL DEFENSES: Nil
+MAGIC RESISTANCE: Standard
+INTELLIGENCE: Non
+ALIGNMENT: Neutral
+SIZE: L (10' to 20' long)
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+
+Notes: The anhkheg burrows through the earth like an earthworm, preferring soil rich in minerals and organic matter. Thus it will usually be found in forests and choice agricultural land. This causes farmers great consternation, since the anhkheg likes to supplement its earthly diet of soil with a bit of fresh meat, human or otherwise. Since its mouth is not designed to rip and tear meat, its mandibles crush its prey and secrete a digestive enzyme causing an additional 1-4 points per turn until the prey is completely dissolved. If sorely pressed in battle it is able to squirt its digestive acids 30 feet once per six hours. However when it does this it cannot digest anything for the same length of time, so it usually will bite. A squirt of digestive acid causes 8-32 hit points of damage to the creature struck, half the amount if the creature makes its saving throw. The anhkheg’s favorite method of attacking is lying 5-10 feet underneath the ground until its antenna detects a likely victim passing overhead. Then it burrows out directly underneath the prey and grabs it. Description: The anhkheg has a chitinous shell which is brownish in color. Its underside is pinkish. The creature’s eyes are glistening black.`
+};
+
+    MONSTERS["monster_manual_i_ant_giant_worker"] = {
+  "name": "ANT, GIANT (Worker)",
+  "source": "Monster Manual I",
+  "sheet": {
+    "frequency": "Rare",
+    "no_appearing": "1-100",
+    "armorclass": "3",
+    "movement": "18\"",
+    "monsterHD": "2",
+    "percent_in_lair": "10%",
+    "treasure_type": "Q (×3), S",
+    "no_of_attacks": "1",
+    "damage_attack": "1-6",
+    "special_attacks": "Nil",
+    "special_defenses": "Nil",
+    "magic_resistance": "Standard",
+    "intelligence": "Animal",
+    "alignment": "Neutral",
+    "size": "S (2' long)",
+    "psionic_ability": "Nil",
+    "attack_defense_modes": "Nil"
+  },
+  "npc_notes": `ANT, GIANT (Worker)
+
+FREQUENCY: Rare
+NO. APPEARING: 1-100
+ARMOR CLASS: 3
+MOVE: 18"
+HIT DICE: 2
+% IN LAIR: 10%
+TREASURE TYPE: Q (×3), S
+NO. OF ATTACKS: 1
+DAMAGE/ATTACK: 1-6
+SPECIAL ATTACKS: Nil
+SPECIAL DEFENSES: Nil
+MAGIC RESISTANCE: Standard
+INTELLIGENCE: Animal
+ALIGNMENT: Neutral
+SIZE: S (2' long)
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+
+Notes: When giant ants are encountered it is 90% likely that they will simply be workers. If found in their lair, nest, there will be double the number rolled plus 1 warrior ant for every 5 workers. The queen ant has 10 hit dice, but she neither moves nor attacks. If she is killed the other ants will become confused, as if they were under the influence of that spell, for six melee rounds and then leave the nest. Treasure held by ants will be found in the chamber of the queen ant. The egg chamber will be guarded by 5-50 workers and 5 warriors. Giant ant eggs have no normal market value.`
+};
+
+    MONSTERS["monster_manual_i_ant_giant_warrior"] = {
+  "name": "ANT, GIANT (Warrior)",
+  "source": "Monster Manual I",
+  "sheet": {
+    "frequency": "Rare",
+    "no_appearing": "1 per 5 workers in lair; 5 guarding egg chamber",
+    "armorclass": "3",
+    "movement": "18\"",
+    "monsterHD": "3",
+    "percent_in_lair": "10%",
+    "treasure_type": "Q (×3), S",
+    "no_of_attacks": "2",
+    "damage_attack": "2-8/3-12",
+    "special_attacks": "Poison sting",
+    "special_defenses": "Nil",
+    "magic_resistance": "Standard",
+    "intelligence": "Animal",
+    "alignment": "Neutral",
+    "size": "S (2' long)",
+    "psionic_ability": "Nil",
+    "attack_defense_modes": "Nil"
+  },
+  "npc_notes": `ANT, GIANT (Warrior)
+
+FREQUENCY: Rare
+NO. APPEARING: 1 per 5 workers in lair; 5 guarding egg chamber
+ARMOR CLASS: 3
+MOVE: 18"
+HIT DICE: 3
+% IN LAIR: 10%
+TREASURE TYPE: Q (×3), S
+NO. OF ATTACKS: 2
+DAMAGE/ATTACK: 2-8/3-12
+SPECIAL ATTACKS: Poison sting
+SPECIAL DEFENSES: Nil
+MAGIC RESISTANCE: Standard
+INTELLIGENCE: Animal
+ALIGNMENT: Neutral
+SIZE: S (2' long)
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+
+Notes: The warrior ant has 3 hit dice, does 2-8 hit points of damage with its mandibles, and if it hits with them it will also attempt to sting for 3-12 points of damage. If a sting hits, a saving throw versus poison must be made; if successful the victim takes only 1-4 hit points of damage. When giant ants are found in their lair there will be 1 warrior ant for every 5 workers. The egg chamber will be guarded by 5-50 workers and 5 warriors. The queen ant has 10 hit dice, but she neither moves nor attacks. If she is killed the other ants will become confused, as if they were under the influence of that spell, for six melee rounds and then leave the nest. Treasure held by ants will be found in the chamber of the queen ant. Giant ant eggs have no normal market value.`
+};
+
+    MONSTERS["monster_manual_i_ant_giant_queen"] = {
+  "name": "ANT, GIANT (Queen)",
+  "source": "Monster Manual I",
+  "sheet": {
+    "frequency": "Rare",
+    "no_appearing": "1 in lair",
+    "armorclass": "3",
+    "movement": "0",
+    "monsterHD": "10",
+    "percent_in_lair": "100%",
+    "treasure_type": "Q (×3), S",
+    "no_of_attacks": "0",
+    "damage_attack": "Nil",
+    "special_attacks": "Nil",
+    "special_defenses": "Death confuses colony",
+    "magic_resistance": "Standard",
+    "intelligence": "Animal",
+    "alignment": "Neutral",
+    "size": "S (2' long)",
+    "psionic_ability": "Nil",
+    "attack_defense_modes": "Nil"
+  },
+  "npc_notes": `ANT, GIANT (Queen)
+
+FREQUENCY: Rare
+NO. APPEARING: 1 in lair
+ARMOR CLASS: 3
+MOVE: 0
+HIT DICE: 10
+% IN LAIR: 100%
+TREASURE TYPE: Q (×3), S
+NO. OF ATTACKS: 0
+DAMAGE/ATTACK: Nil
+SPECIAL ATTACKS: Nil
+SPECIAL DEFENSES: Death confuses colony
+MAGIC RESISTANCE: Standard
+INTELLIGENCE: Animal
+ALIGNMENT: Neutral
+SIZE: S (2' long)
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+
+Notes: The queen ant has 10 hit dice, but she neither moves nor attacks. If she is killed the other ants will become confused, as if they were under the influence of that spell, for six melee rounds and then leave the nest. Treasure held by ants will be found in the chamber of the queen ant. The egg chamber will be guarded by 5-50 workers and 5 warriors. When giant ants are found in their lair there will be double the number rolled plus 1 warrior ant for every 5 workers. Giant ant eggs have no normal market value.`
+};
+
+    MONSTERS["monster_manual_i_ape_gorilla"] = {
+  "name": "APE (Gorilla)",
+  "source": "Monster Manual I",
+  "sheet": {
+    "frequency": "Very rare",
+    "no_appearing": "1-4",
+    "armorclass": "6",
+    "movement": "12\"",
+    "monsterHD": "4+1",
+    "percent_in_lair": "Nil",
+    "treasure_type": "Nil",
+    "no_of_attacks": "3",
+    "damage_attack": "1-3/1-3/1-6",
+    "special_attacks": "Rending",
+    "special_defenses": "Nil",
+    "magic_resistance": "Standard",
+    "intelligence": "Low",
+    "alignment": "Neutral",
+    "size": "M (6' tall, broad)",
+    "psionic_ability": "Nil",
+    "attack_defense_modes": "Nil"
+  },
+  "npc_notes": `APE (Gorilla)
+
+FREQUENCY: Very rare
+NO. APPEARING: 1-4
+ARMOR CLASS: 6
+MOVE: 12"
+HIT DICE: 4+1
+% IN LAIR: Nil
+TREASURE TYPE: Nil
+NO. OF ATTACKS: 3
+DAMAGE/ATTACK: 1-3/1-3/1-6
+SPECIAL ATTACKS: Rending
+SPECIAL DEFENSES: Nil
+MAGIC RESISTANCE: Standard
+INTELLIGENCE: Low
+ALIGNMENT: Neutral
+SIZE: M (6' tall, broad)
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+
+Notes: The typical ape is found only in lonely tropical forest regions. It is non-aggressive and shy, but if threatened or cornered will fight fiercely. If it scores hits with both of its hands it does an additional 1-6 points grabbing and rending its opponent.`
+};
+
+    MONSTERS["monster_manual_i_ape_carnivorous"] = {
+  "name": "APE, Carnivorous",
+  "source": "Monster Manual I",
+  "sheet": {
+    "frequency": "Rare",
+    "no_appearing": "2-8",
+    "armorclass": "6",
+    "movement": "12\"",
+    "monsterHD": "5",
+    "percent_in_lair": "10%",
+    "treasure_type": "C",
+    "no_of_attacks": "3",
+    "damage_attack": "1-4/1-4/1-8",
+    "special_attacks": "Rending",
+    "special_defenses": "Nil",
+    "magic_resistance": "Standard",
+    "intelligence": "Low (upper)",
+    "alignment": "Neutral",
+    "size": "L (7'+, very broad)",
+    "psionic_ability": "Nil",
+    "attack_defense_modes": "Nil"
+  },
+  "npc_notes": `APE, Carnivorous
+
+FREQUENCY: Rare
+NO. APPEARING: 2-8
+ARMOR CLASS: 6
+MOVE: 12"
+HIT DICE: 5
+% IN LAIR: 10%
+TREASURE TYPE: C
+NO. OF ATTACKS: 3
+DAMAGE/ATTACK: 1-4/1-4/1-8
+SPECIAL ATTACKS: Rending
+SPECIAL DEFENSES: Nil
+MAGIC RESISTANCE: Standard
+INTELLIGENCE: Low (upper)
+ALIGNMENT: Neutral
+SIZE: L (7'+, very broad)
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+
+Notes: The carnivorous ape is a larger, stronger and very aggressive relative of the gorilla. This beast has fair intelligence, IQ 70+, and is very cunning. It hungers particularly for human flesh. The eyesight of the ape is keen, as is its hearing and sense of smell, so it is surprised only on a roll of 1. If it strikes its opponent with both hands the ape does an additional 1-8 hit points of rending damage.`
+};
+
+    MONSTERS["monster_manual_i_axe_beak"] = {
+  "name": "AXE BEAK",
+  "source": "Monster Manual I",
+  "sheet": {
+    "frequency": "Uncommon",
+    "no_appearing": "1-6",
+    "armorclass": "6",
+    "movement": "18\"",
+    "monsterHD": "3",
+    "percent_in_lair": "Nil",
+    "treasure_type": "Nil",
+    "no_of_attacks": "3",
+    "damage_attack": "1-3/1-3/2-8",
+    "special_attacks": "Nil",
+    "special_defenses": "Nil",
+    "magic_resistance": "Standard",
+    "intelligence": "Animal",
+    "alignment": "Neutral",
+    "size": "L (7'+ tall)",
+    "psionic_ability": "Nil",
+    "attack_defense_modes": "Nil"
+  },
+  "npc_notes": `AXE BEAK
+
+FREQUENCY: Uncommon
+NO. APPEARING: 1-6
+ARMOR CLASS: 6
+MOVE: 18"
+HIT DICE: 3
+% IN LAIR: Nil
+TREASURE TYPE: Nil
+NO. OF ATTACKS: 3
+DAMAGE/ATTACK: 1-3/1-3/2-8
+SPECIAL ATTACKS: Nil
+SPECIAL DEFENSES: Nil
+MAGIC RESISTANCE: Standard
+INTELLIGENCE: Animal
+ALIGNMENT: Neutral
+SIZE: L (7'+ tall)
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+
+Notes: Axe beaks are prehistoric carnivorous flightless birds. They are very fast runners and aggressively hunt during daylight. An axe beak resembles an ostrich in its lower portions, with a strong neck and a heavy, sharp beak.`
+};
 Object.keys(MONSTERS).forEach(function (k) {
         if (!MONSTERS[k].id) MONSTERS[k].id = k;
     });
