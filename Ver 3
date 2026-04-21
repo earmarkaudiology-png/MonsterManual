@@ -32679,13 +32679,19 @@ Object.keys(MONSTERS).forEach(function (k) {
         sizeLetter = toSheetSizeLetter(sheet.size);
         if (sizeLetter) setAttr(ch.id, 'size', sizeLetter);
 
-        setAttr(ch.id, 'matrix_class', 'Monster');
+        // Force monster/NPC defaults so API-created or API-updated sheets behave like your new sheet defaults.
+        setAttr(ch.id, 'is_npc', '1');
+        setAttr(ch.id, 'toggle_npc', '1');
+        setAttr(ch.id, 'sync_ac_flag', '0');
+
+        // Matrix and saves use numeric option values on the sheet.
+        setAttr(ch.id, 'matrix_class', '5');
         setAttr(ch.id, 'monster_class', 'Monster');
         setAttr(ch.id, 'matrix_saves', 'Monster');
         setAttr(ch.id, 'sync_matrix_class', '0');
         if (sheet.matrix_hitdice) setAttr(ch.id, 'matrix_hitdice', sheet.matrix_hitdice);
-        setAttr(ch.id, 'saveclass', 'Monster');
-        setAttr(ch.id, 'saves_class', 'Monster');
+        setAttr(ch.id, 'saveclass', 'Monster, Fighter, Paladin, or Ranger');
+        setAttr(ch.id, 'saves_class', '3');
         setAttr(ch.id, 'autofill_saves', '1');
 
         setBioNotes(ch, monster.npc_notes || '');
